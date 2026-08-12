@@ -44,33 +44,6 @@ Address 8'hFF is treated as an error address
 
 The internal memory contains 256 locations, each storing 32-bit data.
 
-# Layered Testbench Architecture
-
-                +-------------+
-                |     Test    |
-                +------+------+
-                       |
-                +------v------+
-                | Environment |
-                +------+------+
-                       |
-        +--------------+--------------+
-        |              |              |
-   +----v----+     +---v----+    +----v----+
-   |Generator| --> | Driver |    | Monitor |
-   +---------+     +---+----+    +----+----+
-                         |              |
-                         |              |
-                    +----v----+    +----v----+
-                    | APB DUT |    |Coverage |
-                    +---------+    +---------+
-
-                         Monitor
-                            |
-                       +----v-----+
-                       | Scoreboard|
-                       +----------+
-
 # Transaction
 
 The transaction class contains:
