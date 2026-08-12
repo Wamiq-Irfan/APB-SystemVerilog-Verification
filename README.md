@@ -62,12 +62,3 @@ The testbench follows a structured layered verification architecture:
                      +-----------+
                      | Coverage  |
                      +-----------+
-
-# Author
-
-Wamiq Irfan
-Electronics Engineering
-
-# Project Highlights
-
-This project demonstrates practical experience with SystemVerilog verification, including layered testbench architecture, randomized stimulus generation, reference-model-based checking, protocol transaction monitoring, and functional coverage.
